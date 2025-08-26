@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer utilities {
+    .animate-new-row {
+      animation: highlightFade 1s ease-out forwards;
+    }
+  }
+  
+  @keyframes highlightFade {
+    0%   { background-color: rgba(134, 239, 172, 0.5); }
+    100% { background-color: transparent; }
+  }
